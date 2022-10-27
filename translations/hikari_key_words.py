@@ -651,7 +651,7 @@ class Hikari_Keywords:
     '生年月日'
   }
 
-  about_hikaris_family={
+  about_hikars_family={
     'アカリちゃん',
     'お母さん',
     'お父さん',
