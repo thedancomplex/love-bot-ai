@@ -2,7 +2,7 @@ class Hikari_Keywords:
   def __init__(self):
     pass
 
-  hikari_openings={
+  recommended_openers={
     '食べ',
     '今日?',
     'のんびり',
@@ -28,7 +28,7 @@ class Hikari_Keywords:
   }
 
 
-  asking_hikari_for_advise={
+  asking_for_advise_from_hikari={
     '作り',
     'コーヒー',
     'コーヒー?',
