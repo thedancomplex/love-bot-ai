@@ -203,7 +203,7 @@ class Hikari_Keywords:
     'ありがとう'
   }
 
-  getting_hikari_attention={
+  getting_hikaris_attention={
     'あのさー',
     'あのね',
     'ねぇ',
@@ -651,7 +651,7 @@ class Hikari_Keywords:
     '生年月日'
   }
 
-  about_hikars_family={
+  about_hikaris_family={
     'アカリちゃん',
     'お母さん',
     'お父さん',
@@ -787,3 +787,39 @@ class Hikari_Keywords:
     '庭?',
     '運動?'
   }
+
+
+  no_topic={
+    ''
+  }
+
+
+  all_topics={
+self.recommended_openers,
+self.asking_for_advise_from_hikari,
+self.telling_stories_talking_about_stuff,
+self.games,
+self.generic_greetings,
+self.expressions_of_agreement,
+self.wondering_and_questions,
+self.words_of_thanks,
+getting_hikaris_attention,
+complimenting_hikari,
+caring_for_caring_about_hikari,
+expressing_affection,
+fun_times,
+sad_times,
+tough_times,
+anxiety_worry,
+physical_condition,
+doing_ones_best,
+impressed_suprised_embarrassed,
+dreams_and_aspirations,
+names_for_hikari,
+asking_about_hikari,
+about_hikaris_family,
+hikaris_moods_how_is_she,
+joking_around_with_hikari,
+familiar_phrases_etc,
+general_communication,
+
