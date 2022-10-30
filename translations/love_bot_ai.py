@@ -5,6 +5,7 @@ import random
 hkw = hkw.Hikari_Keywords()
 at  = hkw.all_topics
 
+flag_do_all_found = True
 
 def main():
   message = ''
@@ -49,7 +50,10 @@ def getTopicList(message=None):
       wrd = ati[j]
       f = message.find(wrd)
       if f != -1:
-        ot += 1
+        if flag_do_all_found:
+          ot = 1
+        else:
+          ot += 1
     the_out.append(ot)
   if sum(the_out) < 1:
     the_out[len(the_out)-1] = 1
