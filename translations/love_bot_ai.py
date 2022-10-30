@@ -18,7 +18,7 @@ def main():
 #  print(the_out.index(max(the_out)))
 
   index_list = getTopicIndex(the_out)
-  print(index_list)
+#  print(index_list)
 
   fin = getTopic(index_list)
   print(fin) 
