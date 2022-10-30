@@ -6,14 +6,13 @@ at  = hkw.all_topics
 
 
 def main():
+  message = ''
   if len(sys.argv) <= 1:
-    exit()
-
-  message = str(sys.argv[1])
+    mesasge = 'no_topic'
+  else:
+    message = str(sys.argv[1])
   the_out = getTopicList(message)
   print(the_out)
-  print(len(the_out))
-  print(sum(the_out))
 
 def getTopicList(message=None):
 #  f = message.find('アカリ')
