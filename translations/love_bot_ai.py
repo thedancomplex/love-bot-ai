@@ -12,7 +12,19 @@ def main():
   else:
     message = str(sys.argv[1])
   the_out = getTopicList(message)
-  print(the_out)
+#  print(the_out)
+#  print(the_out.index(max(the_out)))
+  print(getTopicIndex(the_out))
+  
+
+def getTopicIndex(topic_list=None):
+  the_max = max(topic_list)
+  the_out = []
+  for i in range(len(topic_list)):
+    if topic_list[i] == the_max:
+      the_out.append(i)
+  return the_out
+
 
 def getTopicList(message=None):
 #  f = message.find('アカリ')
