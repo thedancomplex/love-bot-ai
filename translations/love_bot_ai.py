@@ -1,5 +1,6 @@
 import hikari_key_words as hkw
 import sys 
+import random
 
 hkw = hkw.Hikari_Keywords()
 at  = hkw.all_topics
@@ -14,7 +15,18 @@ def main():
   the_out = getTopicList(message)
 #  print(the_out)
 #  print(the_out.index(max(the_out)))
-  print(getTopicIndex(the_out))
+
+  index_list = getTopicIndex(the_out)
+  print(index_list)
+
+  fin = getTopic(index_list)
+  print(fin) 
+
+def getTopic(index_list=None):
+  L = len(index_list)
+  r = random.randint(0,L-1)
+  return index_list[r]
+
   
 
 def getTopicIndex(topic_list=None):
