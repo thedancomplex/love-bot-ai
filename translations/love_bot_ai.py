@@ -2,41 +2,35 @@ import hikari_key_words as hkw
 import sys 
 
 hkw = hkw.Hikari_Keywords()
-
-at = hkw.all_topics
-
-if len(sys.argv) <= 1:
-  exit()
-
-#print(len(sys.argv))
-#print(str(sys.argv[1]))
-
-message = str(sys.argv[1])
-
-f = message.find('アカリ')
-#f = message.find('いい天気')
-print(f)
-
-if f != -1:
-  print('found')
-else:
-  print('not found')
+at  = hkw.all_topics
 
 
-#print(at)
-#print(len(at))
-the_out = []
+def main():
+  if len(sys.argv) <= 1:
+    exit()
 
-for i in range(len(at)):
-  ati = at[i]
-  ot  = 0
-  for j in range(len(ati)): 
-    wrd = ati[j]
-    f = message.find(wrd)
-    if f != -1:
-      ot += 1
-  the_out.append(ot)
+  message = str(sys.argv[1])
+  the_out = getTopicList(message)
+  print(the_out)
+  print(len(the_out))
+  print(sum(the_out))
 
-print(the_out)
-print(len(the_out))
-print(len(at))
+def getTopicList(message=None):
+#  f = message.find('アカリ')
+  the_out = []
+
+  for i in range(len(at)):
+    ati = at[i]
+    ot  = 0
+    for j in range(len(ati)): 
+      wrd = ati[j]
+      f = message.find(wrd)
+      if f != -1:
+        ot += 1
+    the_out.append(ot)
+  if sum(the_out) < 1:
+    the_out[len(the_out)-1] = 1
+
+  return the_out
+
+main()
