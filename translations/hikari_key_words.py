@@ -790,7 +790,7 @@ class Hikari_Keywords:
 
 
   no_topic=[
-    ''
+    ' '
   ]
 
 
