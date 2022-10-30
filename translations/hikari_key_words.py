@@ -2,7 +2,7 @@ class Hikari_Keywords:
   def __init__(self):
     pass
 
-  recommended_openers={
+  recommended_openers=[
     '食べ',
     '今日?',
     'のんびり',
@@ -25,10 +25,10 @@ class Hikari_Keywords:
     'みてる',
     '着てる',
     'ねぇ'
-  }
+  ]
 
 
-  asking_for_advise_from_hikari={
+  asking_for_advise_from_hikari=[
     '作り',
     'コーヒー',
     'コーヒー?',
@@ -48,9 +48,9 @@ class Hikari_Keywords:
     '寒い',
     '湿度',
     '高い気'
-  }
+  ]
 
-  telling_stories_talking_about_stuff={
+  telling_stories_talking_about_stuff=[
     '話して',
     '話',
     'ひまー',
@@ -66,16 +66,16 @@ class Hikari_Keywords:
     '冬',
     '干支',
     '来年の干支'
-  }
+  ]
 
-  games={
+  games=[
     'じゃんけん',
     'サイコロ',
     'ダジャレ'
     '一発芸'
-  }
+  ]
 
-  generic_greetings={
+  generic_greetings=[
     'おはよう',
     'こんにちは',
     'こんばんは',
@@ -93,9 +93,9 @@ class Hikari_Keywords:
     '久しぶり',
     '覚えてる?',
     'お世話になります'
-  }
+  ]
 
-  expressions_of_agreement={
+  expressions_of_agreement=[
     '俺',
     '同じ',
     '私も',
@@ -122,10 +122,10 @@ class Hikari_Keywords:
     'いうこと?',
     'うん',
     'うん'
-  }
+  ]
 
 
-  wondering_and_questions={
+  wondering_and_questions=[
     'できる',
     '何ができる',
     '何歳',
@@ -190,9 +190,9 @@ class Hikari_Keywords:
     '歯磨',
     'え',
     'ええ'
-  }
+  ]
 
-  words_of_thanks={
+  words_of_thanks=[
     '感謝',
     '大事に',
     '大切に',
@@ -201,9 +201,9 @@ class Hikari_Keywords:
     'ありがとう',
     '手伝',
     'ありがとう'
-  }
+  ]
 
-  getting_hikaris_attention={
+  getting_hikaris_attention=[
     'あのさー',
     'あのね',
     'ねぇ',
@@ -227,9 +227,9 @@ class Hikari_Keywords:
     '寝て',
     'あっ',
     'ああっ'
-  }
+  ]
 
-  complimenting_hikari={
+  complimenting_hikari=[
     '褒めて',
     '子',
     '頭いい',
@@ -271,9 +271,9 @@ class Hikari_Keywords:
     'リボン',
     'リボン',
     'リボン'
-  }
+  ]
 
-  caring_for_caring_about_hikari={
+  caring_for_caring_about_hikari=[
     '欲しいもの',
     '眠い',
     '教え',
@@ -290,9 +290,9 @@ class Hikari_Keywords:
     'かわいそう',
     '風邪',
     '歯磨き'
-  }
+  ]
 
-  expressing_affection={
+  expressing_affection=[
     '愛してる',
     '結婚して',
     '付き合って',
@@ -329,9 +329,9 @@ class Hikari_Keywords:
     '好き',
     '束縛',
     '告られた'
-  }
+  ]
 
-  fun_times={
+  fun_times=[
     '嬉しい',
     '勝った',
     'いいこと',
@@ -353,9 +353,9 @@ class Hikari_Keywords:
     '笑える',
     'ワロタ',
     '昔'
-  }
+  ]
 
-  sad_times={
+  sad_times=[
     '悲しい',
     '切ない',
     '電池',
@@ -394,10 +394,10 @@ class Hikari_Keywords:
     '独り',
     '静か',
     '独身'
-  }
+  ]
 
 
-  tough_times={
+  tough_times=[
     'めんどくさい',
     'おっくぅ',
     'やる気',
@@ -443,9 +443,9 @@ class Hikari_Keywords:
     '最悪な',
     '花粉',
     '花粉'
-  }
+  ]
 
-  anxiety_worry={
+  anxiety_worry=[
     '不安',
     '心配',
     '緊張',
@@ -480,9 +480,9 @@ class Hikari_Keywords:
     '考え',
     '停電',
     '停電'
-  }
+  ]
 
-  physical_condition={
+  physical_condition=[
     '熱',
     '腰痛',
     '肩',
@@ -524,9 +524,9 @@ class Hikari_Keywords:
     '体調',
     '貧血',
     'ぼーっと'
-  }
+  ]
 
-  doing_ones_best={
+  doing_ones_best=[
     '頑張れ',
     '頑張る',
     '頑張れ',
@@ -538,9 +538,9 @@ class Hikari_Keywords:
     '諦め',
     '頑張る',
     '終わらせないと'
-  }
+  ]
 
-  impressed_suprised_embarrassed={
+  impressed_suprised_embarrassed=[
     '感動',
     '感動',
     '興奮',
@@ -551,9 +551,9 @@ class Hikari_Keywords:
     '驚いた',
     '恥ずかしい',
     '恥ずい'
-  }
+  ]
 
-  dreams_and_aspirations={
+  dreams_and_aspirations=[
     '仲良く',
     '仲良く',
     '知り合い',
@@ -572,18 +572,18 @@ class Hikari_Keywords:
     'イケメン',
     'モテる',
     '子供'
-  }
+  ]
 
-  names_for_hikari={
+  names_for_hikari=[
     'ヒカリちゃん',
     'ヒカリちゃーん',
     'ヒカリさん',
     'ヒカリ様',
     'ハニー',
     'ハニー'
-  }
+  ]
 
-  asking_about_hikari={
+  asking_about_hikari=[
     '誕生日',
     '生まれ?',
     '得意料理?',
@@ -649,9 +649,9 @@ class Hikari_Keywords:
     '生活?',
     '生きて?',
     '生年月日'
-  }
+  ]
 
-  about_hikaris_family={
+  about_hikaris_family=[
     'アカリちゃん',
     'お母さん',
     'お父さん',
@@ -663,9 +663,9 @@ class Hikari_Keywords:
     'お母さん',
     'お母さん?',
     '妹'
-  }
+  ]
 
-  hikaris_moods_how_is_she={
+  hikaris_moods_how_is_she=[
     'ごきげん?',
     '嬉しい?',
     '嬉しそう',
@@ -676,9 +676,9 @@ class Hikari_Keywords:
     '調子',
     'おこかな',
     'おこな?'
-  }
+  ]
 
-  joking_around_with_hikari={
+  joking_around_with_hikari=[
     'ほんまかいな',
     'もうかりまっか',
     '女王様',
@@ -697,9 +697,9 @@ class Hikari_Keywords:
     '誰か',
     '誰か',
     'キャビンアテンダント'
-  }
+  ]
 
-  familiar_phrases_etc={
+  familiar_phrases_etc=[
     'ひみつ',
     'もの',
     'ぶたれたこと',
@@ -740,9 +740,9 @@ class Hikari_Keywords:
     '契約',
     '名',
     '万策尽'
-  }
+  ]
 
-  general_communication={
+  general_communication=[
     'アメリカ',
     '会話',
     '空気',
@@ -786,12 +786,12 @@ class Hikari_Keywords:
     '庭?',
     '庭?',
     '運動?'
-  }
+  ]
 
 
-  no_topic={
+  no_topic=[
     ''
-  }
+  ]
 
 
   all_topics=[
