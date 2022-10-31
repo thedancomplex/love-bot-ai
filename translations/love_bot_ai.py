@@ -8,8 +8,7 @@ at  = hkw.all_topics
 flag_do_all_found = True
 
 # All weights
-print(hkw.weights)
-#print(hkw.hikari_reply_weights)
+#print(hkw.weights)
 
 def main():
   message = ''
@@ -24,8 +23,50 @@ def main():
   index_list = getTopicIndex(the_out)
 #  print(index_list)
 
-  fin = getTopic(index_list)
-  print(fin) 
+  # The topic that was received
+  the_topic = getTopic(index_list)
+  print("Received Topic = ",end='')
+  print(the_topic) 
+
+  # The topic that we will reply with
+  reply_topic = getReplyTopic(the_topic)
+  print("Reply Topic = ", end='')
+  print(reply_topic)
+
+  
+def getReplyTopic(the_topic=None):
+  if the_topic == None:
+    return None
+  
+  weights = hkw.weights[the_topic]
+
+  total = sum(weights)
+  print(weights)
+  print(total)
+ 
+  the_indexes = []
+  the_index_values = []
+  the_weight_thresh = []
+  for i in range(len(weights)):
+    the_out = 0
+    if weights[i] > 0.000001:
+      the_out = 1
+      the_index_values.append(i)
+      the_weight_thresh.append(sum(weights[0:i]))
+    the_indexes.append(the_out)
+  print(the_indexes)
+  print(the_index_values) 
+  print(the_weight_thresh)
+
+  the_rand_val = random.random()*total
+  print(the_rand_val)
+  for j in range(len(the_weight_thresh)):
+    i = len(the_weight_thresh) - 1 - j
+    print(the_weight_thresh[i])
+    if the_rand_val >= the_weight_thresh[i]:
+      return the_index_values[i]
+  return None
+
 
 def getTopic(index_list=None):
   L = len(index_list)
