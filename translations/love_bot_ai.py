@@ -33,6 +33,14 @@ def main():
   print("Reply Topic = ", end='')
   print(reply_topic)
 
+  # The reply message
+  reply_message = getReplyMessage(reply_topic)
+  print("Reply Message = ", end='')
+  print(reply_message)
+
+def getReplyMessage(reply_topic):
+  
+
   
 def getReplyTopic(the_topic=None):
   if the_topic == None:
