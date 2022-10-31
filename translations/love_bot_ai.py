@@ -7,6 +7,9 @@ at  = hkw.all_topics
 
 flag_do_all_found = True
 
+# All weights
+#print(hkw.hikari_reply_weights)
+
 def main():
   message = ''
   if len(sys.argv) <= 1:
