@@ -41,8 +41,6 @@ def getReplyTopic(the_topic=None):
   weights = hkw.weights[the_topic]
 
   total = sum(weights)
-  print(weights)
-  print(total)
  
   the_indexes = []
   the_index_values = []
@@ -54,15 +52,10 @@ def getReplyTopic(the_topic=None):
       the_index_values.append(i)
       the_weight_thresh.append(sum(weights[0:i]))
     the_indexes.append(the_out)
-  print(the_indexes)
-  print(the_index_values) 
-  print(the_weight_thresh)
 
   the_rand_val = random.random()*total
-  print(the_rand_val)
   for j in range(len(the_weight_thresh)):
     i = len(the_weight_thresh) - 1 - j
-    print(the_weight_thresh[i])
     if the_rand_val >= the_weight_thresh[i]:
       return the_index_values[i]
   return None
