@@ -1,7 +1,5 @@
-import hikari_key_words_weights as hkww
-class Hikari_Keywords:
+class Hikari_Messages:
   def __init__(self):
-    self.weights = hkww.hikari_reply_weights
     pass
 
   recommended_openers=[
