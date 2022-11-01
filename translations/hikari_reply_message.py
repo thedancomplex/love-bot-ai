@@ -26,6 +26,7 @@ class Hikari_Messages:
     '何着てるの？',
     'ねぇヒカリ'
   ]
+
   asking_for_advise_from_hikari=[
     '何作りたらいいかな',
     'コーヒー決めて',
@@ -63,17 +64,17 @@ class Hikari_Messages:
     '秋の話をして',
     '冬の話をして',
     '今年の干支を教えて',
-    '来年の干支を教えて',
-]',
-',
-games=[
+    '来年の干支を教えて'
+  ]
+
+  games=[
     'じゃんけんしよう',
     'サイコロ振って',
     'ダジャレ言って',
     '一発芸やって',
-]',
-',
-generic_greetings=[
+  ]
+
+  generic_greetings=[
     'おはよう',
     'こんにちは',
     'こんばんは',
@@ -91,9 +92,9 @@ generic_greetings=[
     '久しぶり',
     '覚えてる？',
     'お世話になります',
-]',
-',
-expressions_of_agreement=[
+  ]
+
+  expressions_of_agreement=[
     '俺もだ',
     '同じだ',
     '私もだ',
@@ -120,10 +121,9 @@ expressions_of_agreement=[
     'そういうことか？',
     'うん',
     'うんうん',
-]',
-',
-',
-wondering_and_questions=[
+  ]
+
+  wondering_and_questions=[
     '何ができるかな',
     '何ができるの',
     '何歳に見える',
@@ -188,9 +188,9 @@ wondering_and_questions=[
     '歯磨きが苦手なの',
     'えっ',
     'ええっ',
-    ]',
-    ',
-words_of_thanks=[
+    ]
+    
+  words_of_thanks=[
     '感謝してる',
     '大事にするね',
     '大切にするね',
@@ -199,9 +199,9 @@ words_of_thanks=[
     '起こしてくれてありがとう',
     '手伝ってくれてありがとう',
     '教えてくれてありがとう',
-    ']',
-    '',
-    'getting_hikaris_attention=[
+    ]
+    
+  getting_hikaris_attention=[
     'あのさー',
     'あのね',
     'ねぇねぇ',
@@ -225,9 +225,9 @@ words_of_thanks=[
     '先に寝て',
     'あっ',
     'ああっ',
-    ']',
-    '',
-    'complimenting_hikari=[
+  ]
+
+  complimenting_hikari=[
     '褒めてあげる',
     'いい子だね',
     '頭いいね',
@@ -270,9 +270,9 @@ words_of_thanks=[
     'リボン似合ってる',
     'リボン素敵',
     '',
-    ']',
-    '',
-    'caring_for_caring_about_hikari=[
+    ]
+
+  caring_for_caring_about_hikari=[
     '欲しいものあるかな',
     '眠いかな',
     '教えてあげる',
@@ -289,9 +289,9 @@ words_of_thanks=[
     'ヒカリかわいそう',
     '風邪はなおった',
     '歯磨きは大事だな',
-    ']',
-    '',
-    'expressing_affection=[
+  ]
+
+  expressing_affection=[
     '愛してる',
     '結婚して',
     '付き合って',
@@ -328,9 +328,9 @@ words_of_thanks=[
     '好きでいて',
     'ヒカリを束縛したい',
     '告られた',
-    ']',
-    '',
-    'fun_times=[
+  ]
+
+  fun_times=[
     '嬉しい',
     '勝った',
     'いいことがあった',
@@ -352,9 +352,9 @@ words_of_thanks=[
     '笑える',
     'ワロタ',
     '昔は楽しかった',
-    ']',
-    '',
-    'sad_times=[
+  ]
+
+  sad_times=[
     '悲しい',
     '切ない',
     '電池が死んだ',
@@ -393,10 +393,9 @@ words_of_thanks=[
     '独りだ',
     '静かすぎる',
     'いつも独身なんだ',
-    ']',
-    '',
-    '',
-    'tough_times=[
+  ]
+
+  tough_times=[
     'めんどくさい',
     'おっくぅだ',
     'やる気が出ない',
@@ -442,9 +441,9 @@ words_of_thanks=[
     '今日は最悪な一日だった',
     '花粉がひどい',
     '花粉がやばい',
-    ']',
-    '',
-    'anxiety_worry=[
+  ]
+
+  anxiety_worry=[
     '不安だ',
     '心配だ',
     '緊張する',
@@ -479,9 +478,9 @@ words_of_thanks=[
     '考えが甘い',
     '停電した',
     '停電だ',
-    ']',
-    '',
-    'physical_condition=[
+  ]
+
+  physical_condition=[
     '熱がある',
     '腰痛だ',
     '肩こりなんだ',
@@ -523,9 +522,9 @@ words_of_thanks=[
     '体調不良',
     '貧血で倒れた',
     'ぼーっとしていた',
-    ']',
-    '',
-    'doing_ones_best=[
+  ]
+
+  doing_ones_best=[
     '頑張れそう',
     '頑張るよ',
     '頑張れたよ',
@@ -537,9 +536,9 @@ words_of_thanks=[
     '諦めたくない',
     '今日も頑張る',
     '終わらせないと',
-    ']',
-    '',
-    'impressed_suprised_embarrassed=[
+  ]
+
+  impressed_suprised_embarrassed=[
     '感動',
     '感動した',
     '興奮',
@@ -550,9 +549,9 @@ words_of_thanks=[
     '驚いた',
     '恥ずかしい',
     '恥ずい',
-    ']',
-    '',
-    'dreams_and_aspirations=[
+  ]
+
+  dreams_and_aspirations=[
     '仲良くなりたい',
     '仲良くしたい',
     '知り合いと仲良くなりたい',
@@ -571,18 +570,18 @@ words_of_thanks=[
     'イケメンマシンになりたい',
     'モテるようになりたい',
     '子供にもどりたい',
-    ']',
-    '',
-    'names_for_hikari=[
+  ]
+
+  names_for_hikari=[
     'ヒカリちゃん',
     'ヒカリちゃーん',
     'ヒカリさん',
     'ヒカリ様',
     'ハニー',
     'マイハニー',
-    ']',
-    '',
-    'asking_about_hikari=[
+  ]
+
+  asking_about_hikari=[
     'ヒカリの誕生日教えて',
     'いつ生まれなの？',
     '得意料理は？',
@@ -648,9 +647,9 @@ words_of_thanks=[
     'どんな風に生活してきたの？',
     'どんな風に生きてきたの？',
     'ヒカリの生年月日おしえて',
-    ']',
-    '',
-    'about_hikaris_family=[
+  ]
+
+  about_hikaris_family=[
     'ヒカリの妹アカリちゃんのこと教えて',
     'お母さんのこと教えて',
     'お父さんのこと教えて',
@@ -662,9 +661,9 @@ words_of_thanks=[
     'ヒカリのお母さんの名前おしえて',
     'ヒカリのお母さんはどこに行っちゃったの？',
     'ヒカリの妹の名前おしえて',
-    ']',
-    '',
-    'hikaris_moods_how_is_she=[
+  ]
+
+  hikaris_moods_how_is_she=[
     'ごきげんかな？',
     '嬉しいのかな？',
     '嬉しそう',
@@ -675,9 +674,9 @@ words_of_thanks=[
     '調子どうかな',
     'おこかな',
     'おこなの？',
-    ']',
-    '',
-    'joking_around_with_hikari=[
+  ]
+
+  joking_around_with_hikari=[
     'ほんまかいな',
     'もうかりまっか',
     '女王様',
@@ -696,9 +695,9 @@ words_of_thanks=[
     'おや誰か来たようだ',
     'おっと誰か来たようだ',
     'キャビンアテンダントのマネして',
-    ']',
-    '',
-    'familiar_phrases_etc=[
+  ]
+
+  familiar_phrases_etc=[
     'ひみつ道具',
     'お前のものは俺のもの',
     'ヒカリちゃんは親父にもぶたれたことがないのに',
@@ -739,9 +738,9 @@ words_of_thanks=[
     '僕と契約して魔法少女になってよ',
     'おれの名を言ってみろ',
     '万策尽きた',
-    ']',
-    '',
-    'general_communication=[
+  ]
+
+  general_communication=[
     'アメリカ知ってるかな',
     '会話良かった',
     '空気がおいしい',
@@ -784,45 +783,44 @@ words_of_thanks=[
     '僕は窓の外を見るのが大好き',
     '庭が好き？',
     '庭に座りたい？',
-    '今日は運動しましたか？',
-    ']',
-    '',
-    '',
-no_topic=[
-''',
-]',
-',
-',
-all_topics=[',
-recommended_openers,
-asking_for_advise_from_hikari,
-telling_stories_talking_about_stuff,
-games,
-generic_greetings,
-expressions_of_agreement,
-wondering_and_questions,
-words_of_thanks,
-getting_hikaris_attention,
-complimenting_hikari,
-caring_for_caring_about_hikari,
-expressing_affection,
-fun_times,
-sad_times,
-tough_times,
-anxiety_worry,
-physical_condition,
-doing_ones_best,
-impressed_suprised_embarrassed,
-dreams_and_aspirations,
-names_for_hikari,
-asking_about_hikari,
-about_hikaris_family,
-hikaris_moods_how_is_she,
-joking_around_with_hikari,
-familiar_phrases_etc,
-general_communication,
-no_topic
-]
+    '今日は運動しましたか？'
+  ]
+  
+  no_topic=[
+    ' ',
+  ]
+
+
+  all_topics=[
+    recommended_openers,
+    asking_for_advise_from_hikari,
+    telling_stories_talking_about_stuff,
+    games,
+    generic_greetings,
+    expressions_of_agreement,
+    wondering_and_questions,
+    words_of_thanks,
+    getting_hikaris_attention,
+    complimenting_hikari,
+    caring_for_caring_about_hikari,
+    expressing_affection,
+    fun_times,
+    sad_times,
+    tough_times,
+    anxiety_worry,
+    physical_condition,
+    doing_ones_best,
+    impressed_suprised_embarrassed,
+    dreams_and_aspirations,
+    names_for_hikari,
+    asking_about_hikari,
+    about_hikaris_family,
+    hikaris_moods_how_is_she,
+    joking_around_with_hikari,
+    familiar_phrases_etc,
+    general_communication,
+    no_topic
+  ]
 
 
 
