@@ -1,9 +1,10 @@
-import hikari_key_words as hkw
+import hikari_messages
+#import hikari_key_words as hkw
 import sys 
 import random
 
-hkw = hkw.Hikari_Keywords()
-at  = hkw.all_topics
+hm = hikari_messages.Hikari_Messages()
+at  = hm.key_words.all_topics
 
 flag_do_all_found = True
 
@@ -38,15 +39,18 @@ def main():
   print("Reply Message = ", end='')
   print(reply_message)
 
-def getReplyMessage(reply_topic):
-  
+def getReplyMessage(reply_topic=None):
+  msgs = hm.reply.all_topics[reply_topic]
+  L = len(msgs)
+  index = random.randint(0,L-1)
+  return msgs[index]
 
   
 def getReplyTopic(the_topic=None):
   if the_topic == None:
     return None
   
-  weights = hkw.weights[the_topic]
+  weights = hm.weights[the_topic]
 
   total = sum(weights)
  
