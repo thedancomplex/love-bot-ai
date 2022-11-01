@@ -26,17 +26,17 @@ def main():
 
   # The topic that was received
   the_topic = getTopic(index_list)
-  print("Received Topic = ",end='')
-  print(the_topic) 
+##  print("Received Topic = ",end='')
+##  print(the_topic) 
 
   # The topic that we will reply with
   reply_topic = getReplyTopic(the_topic)
-  print("Reply Topic = ", end='')
-  print(reply_topic)
+##  print("Reply Topic = ", end='')
+##  print(reply_topic)
 
   # The reply message
   reply_message = getReplyMessage(reply_topic)
-  print("Reply Message = ", end='')
+##  print("Reply Message = ", end='')
   print(reply_message)
 
 def getReplyMessage(reply_topic=None):
