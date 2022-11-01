@@ -1,4 +1,4 @@
-class Hikari_Messages:
+class Hikari_Reply_Messages:
   def __init__(self):
     pass
 
