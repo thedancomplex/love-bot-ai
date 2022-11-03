@@ -3,4 +3,4 @@ This system will listen to a Line conversation from the Hikari holographic robot
 
 
 # Block Diagram
-![love-bot-ai Block Diagram](https://github.com/thedancomplex/love-bot-ai/raw/main/translations/Love-Bot-AI-block-diagram.drawio.jpg
+![love-bot-ai Block Diagram](translations/Love-Bot-AI-block-diagram.drawio.pdf)
