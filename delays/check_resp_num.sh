@@ -15,4 +15,4 @@ fi
 
 echo $Y > $LOG_NAME
 
-cat $LOG_NAME
+echo $RET

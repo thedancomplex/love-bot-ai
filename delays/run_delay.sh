@@ -1,7 +1,9 @@
 REPLY_NUM=2
 cd love-bot-ai/delays/
 
-RET=./check_resp_num.sh $REPLY_NUM
+RET=$(./check_resp_num.sh $REPLY_NUM)
+
+echo $RET
 
 if [ $RET -eq 1 ]
 then
