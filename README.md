@@ -4,7 +4,7 @@ This system will listen to a Line conversation from the Hikari holographic robot
 # Todo
 * add response so it only replies x amount of times imediately
 * update blockdiagram below so it matches the delay
-
+* make auto restart if things break
 
 # Block Diagram
 ![love-bot-ai Block Diagram](translations/Love-Bot-AI-block-diagram.drawio.jpg)
